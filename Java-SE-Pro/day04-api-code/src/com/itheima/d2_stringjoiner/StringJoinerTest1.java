@@ -12,7 +12,7 @@ public class StringJoinerTest1 {
     public static String getArrayData(int[] arr) {
         if (arr == null) return null;
         //创建StringJoiner对象
-        //参数1：间隔符   参数2：开始符合    参数3：结束符合
+        //参数1：间隔符   参数2：开始符号    参数3：结束符号
         StringJoiner sb = new StringJoiner(",","[","]");
         //遍历数组的内容
         for (int i = 0; i < arr.length; i++) {

@@ -1,6 +1,7 @@
 package com.itheima.d13_extends_override2;
 
-public class Student {
+public class
+Student {
     private String name;
     private char sex;
     private double height;

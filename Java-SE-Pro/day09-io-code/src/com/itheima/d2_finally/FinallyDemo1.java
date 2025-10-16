@@ -2,7 +2,7 @@ package com.itheima.d2_finally;
 
 public class FinallyDemo1 {
     public static void main(String[] args) {
-        //目标：认识finally的作用
+        //目标：认识finally的作用-->try-catch-finally
         //try或者catch后，一定会执行，除非JVM挂了
         try {
             System.out.println(10 / 2);
